@@ -4,7 +4,7 @@ import './App.css';
 import {useState, useEffect} from "react";
 //4 custom hook
 import { useFetch } from './hook/useEffet';
-
+console.log("oi")
 function App() {
 
   const url="http://localhost:3000/products";
